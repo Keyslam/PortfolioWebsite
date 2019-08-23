@@ -1,0 +1,32 @@
+{
+  "name": "justin-portfolio",
+  "version": "1.0.0",
+  "description": "This is a static webpage built wih 11ty, to be used as Justin's Van der Leij portfolio",
+  "scripts": {
+    "build": "npx eleventy & npm run pretty",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npm run build",
+    "pretty": "npx prettier --write \"build/**/*.{js,css,html}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tjakka5/PortfolioWebsite.git"
+  },
+  "author": {
+    "name": "Pablo Ariel Mayobre",
+    "email": "pablo.a.mayobre@gmail.com",
+    "url": "https://pablomayobre.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tjakka5/PortfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/Tjakka5/PortfolioWebsite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "prettier": "^1.18.2"
+  }
+}

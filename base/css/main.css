@@ -1,0 +1,361 @@
+body {
+  background-color: white;
+}
+* {
+  font-family: Raleway, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+header img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+header h1 {
+  font-weight: 300;
+  margin: 4px;
+  font-size: 1.5rem;
+}
+header .about {
+  display: inline-flex;
+  font-style: italic;
+  background-color: #f6f485;
+  padding: 3px 15px;
+  border-radius: 3px;
+  border: 1px solid #f1eba1;
+  margin: 0;
+}
+
+main {
+  max-width: 1000px;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  color: rgba(0,0,0,0.3)
+}
+nav a.selected {
+  color: black;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  overflow: hidden;
+  z-index: 10;
+}
+.sticky .separator {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius:  0 0 1.2rem 1.2rem;
+  background-color: white;
+}
+.sticky .separator:before,
+.sticky .separator:after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 4px solid rgba(0,0,0,0.2);
+  top: 0;
+  width: 600px;
+}
+.sticky .separator:before {
+  right: 100%;
+}
+.sticky .separator:after {
+  left: 100%;
+}
+.sticky .separator .icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 4px solid rgba(0,0,0,0.2);
+  border-radius: 50%;
+  padding: 6px;
+}
+.sticky .separator .icon path {
+  fill: rgba(0,0,0,0.35);
+}
+.sticky .separator h2 {
+  text-transform: uppercase;
+  margin: 0px 15px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.project {
+  color: black;
+  text-decoration: none;
+  border: 1px solid #d3d3d3;
+  border-radius: .25rem;
+  overflow: hidden;
+  transition: .2s;
+  cursor: pointer;
+}
+.project:hover {
+  transform: scale(1.02);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.project img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 180px;
+  background-color: #ccc;
+}
+.project .content {
+  padding: 15px;
+  text-align: center;
+}
+.project .content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.grid {
+  margin: 30px 0;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 40px;
+}
+.radio-button {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+.radio-button + label {
+  margin: 0 10px;
+  display: block;
+  border: 2px solid #d6d7d9;
+  color: #bcc0c1;
+  border-radius: 4px;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.radio-button + label:hover {
+  border-color: #3a4652;
+  color: #3a4652;
+}
+.radio-button:checked + label {
+  border-color: #3a4652;
+  background-color: #3a4652;
+  color: white;
+}
+
+.cover {
+  margin: 30px 0;
+}
+
+.cover, main, .markdown h1, .itchio {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.markdown {
+  max-width: 640px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 30px;
+  left: calc(50% - 15px);
+  transform: translateX(-50%);
+}
+
+.markdown h1, .markdown h2 {
+  text-transform: uppercase;
+}
+
+.markdown h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+}
+
+.markdown h2 {
+  width: max-content;
+  font-size: 1.5rem;
+  position: relative;
+  display: block;
+  font-weight: 300;
+  padding-right: 10px;
+}
+
+.markdown h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.markdown .direct-link {
+  margin-left: -20px;
+  float: left;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.markdown .direct-link svg {
+  display: inline-block;
+  visibility: hidden;
+  vertical-align: middle;
+  color: black;
+}
+.markdown .direct-link:hover svg {
+  visibility: visible;
+}
+
+.markdown h1:hover .direct-link svg,
+.markdown h2:hover .direct-link svg,
+.markdown h3:hover .direct-link svg,
+.markdown h4:hover .direct-link svg,
+.markdown h5:hover .direct-link svg {
+  visibility: visible;
+}
+
+.markdown h1:after,
+.markdown h2:after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  top: 0;
+  width: 650px;
+  left: 100%;
+}
+
+.markdown h1:after {
+  left: 50%;
+  transform: translateX(-50%);
+  height: 120%;
+}
+
+.markdown pre {
+  border-radius: 4px;
+}
+.markdown code * {
+  font-family: 'Source Code Pro', monospace;
+}
+.markdown code:not([class*="language-"]) {
+  background: #2a2734;
+  padding: 2px 8px;
+  color: #c4b9fe;
+  border-radius: 4px;
+}
+.markdown img {
+  display: block;
+  margin: 0 auto;
+}
+
+.links {
+  margin: 0 auto 30px;
+  max-width: 640px;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color: black;
+  display: block;
+  border-radius: 20px;
+  border: 2px solid #d3d3d3;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 5px;
+  transition: box-shadow .2s, transform .2s;
+}
+
+
+footer {
+  border-top: 4px solid rgba(0,0,0,0.2);
+  max-width: 1000px;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 5px 0px 10px;
+}
+
+.social {
+  display: inline-flex;
+  margin: 0px;
+}
+
+.social li {
+  list-style-type: none;
+}
+
+.social li a {
+  display:flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.6rem;
+  border-left: 2px solid rgba(0,0,0,0.2);
+  padding: calc(.7rem - 4px);
+  text-decoration: none;
+  transition: box-shadow .2s, transform .2s;
+}
+
+.social li:first-child a {
+  border: none;
+}
+
+.social li a span {
+  display: inline-block;
+  color: black;
+  font-size: .9rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.social li a svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+
+.links a:hover, .social li a:hover {
+  background-color: black;
+  color: white;
+  border-color: transparent;
+  transform: scale(1.02);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.social li a:hover svg path, .social li a:hover span {
+  color: white;
+  fill: white;
+}
+
+footer p, footer p a {
+  margin: 2px;
+  color: rgba(0,0,0,0.3)
+}

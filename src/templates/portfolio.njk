@@ -1,0 +1,54 @@
+{% extends "main.njk" %}
+
+{% block head %}
+	<script type='text/javascript'>
+		window.addEventListener('load', function () {
+			document.body.className = 'all';
+			var elements = document.querySelectorAll('.categories .radio-button');
+
+			elements.forEach(function (e) {
+				e.addEventListener('change', function() {
+					document.body.className = this.value;
+				})
+			});
+		});
+	</script>
+
+  <style type='text/css'>
+    {% for category in collections.categories %}
+    body.{{category}} .card:not(.{{category}}) {
+      visibility: hidden;
+      display: none;
+    }
+    {% endfor %}
+  </style>
+{% endblock %}
+
+{% block icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" version='1.1' aria-hidden='true' class='icon' width='50' height='50' viewBox='0 0 14 16'>
+    <path fill-rule='evenodd' d='M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z'/>
+  </svg>
+{% endblock %}
+
+{% block main %}
+  <section class='categories'>
+    <input type='radio' class='radio-button' name='categories' value='all' id='button-all' checked />
+    <label for='button-all'>All</label>
+    {% for category in collections.categories %}
+      <input type='radio' class='radio-button' name='categories' value='{{ category | lower }}' id='button-{{ category | lower }}' />
+      <label for='button-{{ category | lower }}'>{{ category | capitalize }}</label>
+    {% endfor %}
+  </section>
+
+  <section class='grid'>
+    {% for project in collections.projects %}
+      <a class='{{ project.data.tags | join(" ") }}' href='{{ project.url | url }}'>
+        <img src='{{ "/img/" + project.data.image | url }}'/>
+        <div class='content'>
+          <h3>{{ project.data.title }}</h3>
+          <p>{{ project.data.description }}<p>
+        </div>
+      </a>
+    {% endfor %}
+  </section>
+{% endblock %}
