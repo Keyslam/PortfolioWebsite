@@ -1,6 +1,6 @@
-# Foobar
+# Justin's Portfolio
 
-Foobar is a Python library for dealing with word pluralization.
+This is a static webpage built wih 11ty, to be used as Justin's Van der Leij portfolio
 
 ## Installation
 

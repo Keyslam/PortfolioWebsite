@@ -9,6 +9,7 @@ module.exports = (eleventy) => {
 
   eleventy.addPassthroughCopy("base/img");
   eleventy.addPassthroughCopy("base/css");
+  eleventy.addPassthroughCopy("base/static");
 
   collectionsSetup(eleventy);
   markdownSetup(eleventy);

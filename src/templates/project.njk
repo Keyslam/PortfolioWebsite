@@ -12,15 +12,15 @@
       src="https://www.youtube.com/embed/{{ youtube }}?autoplay=0&modestbranding=1&rel=0&origin={{author.domain}}">
     </iframe>
   {% else %}
-    <img class="cover" src="{{ image }}"/>
+    <img class="cover" src='{{ "/img/" + image | url }}'/>
   {% endif %}
   {% if itchio %}
     <iframe class="itchio" src="https://itch.io/embed/{{ itchio }}?linkback=true&amp;border_width=2&amp;fg_color=000000&amp;link_color=000000" width="640" height="173" frameborder="0"></iframe>
   {% endif %}
   <section class="links">
-    {% if github %}<a href="{{github}}" class="github">GitHub</a>{% endif %}
-    {% if github %}<a href="{{ludumdare}}" class="ludumdare">LudumDare</a>{% endif %}
-    {% if github %}<a href="{{googleplay}}" class="googleplay">Google Play</a>{% endif %}
+    {% if github     %}<a href="{{ github     }}" class="github"    >GitHub     </a>{% endif %}
+    {% if ludumdare  %}<a href="{{ ludumdare  }}" class="ludumdare" >LudumDare  </a>{% endif %}
+    {% if googleplay %}<a href="{{ googleplay }}" class="googleplay">Google Play</a>{% endif %}
   </section>
   <section class="markdown">
     {{ content | safe }}

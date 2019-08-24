@@ -173,6 +173,7 @@ nav a.selected {
 
 .cover {
   margin: 30px 0;
+  width: 640px;
 }
 
 .cover, main, .markdown h1, .itchio {
