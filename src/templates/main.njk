@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 
 <head lang='en'>
-	<title>{{ author.name }} - {{ title }}</title>
+	<title>{{ author.firstname + " " + author.lastname + " - " + title }}</title>
 	<meta charset='utf-8'/>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+	{% if author.ganalytics %}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ author.ganalytics }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', '{{ author.ganalytics }}');
+	</script>
+	{% endif %}
 	<!-- Normalize CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
 	 <!-- Google Fonts: Raleway dnd Source Code Pro -->
@@ -31,15 +42,15 @@
 <body>
 	<header>
 		<img src='{{ "/img/logo/android-chrome-256x256.png" | url }}'/>
-		<h1>{{ author.name }}</h1>
+		<h1>{{ author.firstname + " " + author.lastname }}</h1>
 		<p class='about'>{{ author.about }}</p>
 	</header>
 	<main>
 	<section class="sticky">
 		<nav>
-			<a {% if title == "About me"  %}class='selected' href='#'{% else %}href='{{ "/about"   | url }}'{% endif %}>About me </a>
-			<a {% if title == "Portfolio" %}class='selected' href='#'{% else %}href='{{ "/"        | url }}'{% endif %}>Portfolio</a>
-			<a {% if title == "Contact"   %}class='selected' href='#'{% else %}href='{{ "/contact" | url }}'{% endif %}>Contact  </a>
+			<a {% if title == "About me"  %}class='selected' href='#'{% else %}href='{{ "/about/"   | url }}'{% endif %}>About me </a>
+			<a {% if title == "Portfolio" %}class='selected' href='#'{% else %}href='{{ "/"         | url }}'{% endif %}>Portfolio</a>
+			<a {% if title == "Contact"   %}class='selected' href='#'{% else %}href='{{ "/contact/" | url }}'{% endif %}>Contact  </a>
 		</nav>
 		<div class="separator">
 			<span class="icon">

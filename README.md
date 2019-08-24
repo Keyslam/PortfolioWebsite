@@ -1,10 +1,10 @@
 # Justin's Portfolio
 
-This is a static webpage built wih 11ty, to be used as Justin's Van der Leij portfolio
+This is a static webpage built wih 11ty, to be used as Justin's Van der Leij portfolio.
 
 ## Installation
 
-Clone the repository into your desired folder using either SSH, HTTPS, or the Download button
+Clone the repository into your desired folder using either SSH, HTTPS, or the Download button:
 
 ```bash
 git clone git@github.com:Tjakka5/PortfolioWebsite.git
@@ -12,7 +12,7 @@ git clone git@github.com:Tjakka5/PortfolioWebsite.git
 git clone https://github.com/Tjakka5/PortfolioWebsite.git
 ```
 
-Then you'll need to install the NPM modules required to build the project
+Then you'll need to install the NPM modules required to build the project:
 
 ```bash
 npm install
@@ -41,7 +41,9 @@ Any Markdown in the `projects` folder will be marked as a project, and added to 
 
 This is where the final build of the website ends up.
 
-Note that all the files are static so you can move this folder anywhere to be deployed by your server
+Note that all the files are static so you can move this folder anywhere to be deployed by your server.
+
+If you want to place it in a location that is not your root, say you have the domain `https://example.com` and you want to make the portfolio accessible at `https://example.com/portfolio` you may need to change the [`pathPrefix`](https://github.com/Tjakka5/PortfolioWebsite/blob/dev/.eleventy.js#L43).
 
 ### `src` Folder
 

@@ -1,5 +1,6 @@
 {
-  "name": "Justin Van der Leij",
+  "firstname": "Justin",
+  "lastname": "Van der Leij",
   "about": "A silly programmer",
 
   "github": "https://github.com/Tjakka5",
@@ -14,6 +15,8 @@
   "zip": "00000",
   "city": "City name",
   "state": "State name",
-  "country": "Country name"
+  "country": "Country name",
 
+  "//NOTE": "Delete the six dashes in the entry's name below and paste your Google Analytics ID as the value: https://support.google.com/analytics/answer/1008080#GAID",
+  "ganalytics------": "29128192"
 }
