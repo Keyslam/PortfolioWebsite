@@ -1,21 +1,18 @@
 {
   "firstname": "Justin",
-  "lastname": "Van der Leij",
-  "about": "A silly programmer",
+  "lastname": "van der Leij",
+  "about": "A wannabe game developer",
 
   "github": "https://github.com/Tjakka5",
   "itchio": "https://tjakka5.itch.io/",
   "ludumdare": "https://ldjam.com/users/tjakka5",
   "youtube": "https://www.youtube.com/user/justinvanderleij",
 
-  "email": "example@mail.com",
-  "phone": "+00-000-00-0000",
+  "email": "justinvanderleij@gmail.com",
+  "phone": "+316-81712798",
 
-  "street": "Street name, 000",
-  "zip": "00000",
-  "city": "City name",
-  "state": "State name",
-  "country": "Country name",
+  "city": "The Netherlands",
+  "country": "Leeuwarden",
 
   "//NOTE": "Delete the six dashes in the entry's name below and paste your Google Analytics ID as the value: https://support.google.com/analytics/answer/1008080#GAID",
   "ganalytics------": "29128192"
