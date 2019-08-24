@@ -15,6 +15,6 @@ tags: # These should be lowercase but can be whatever (except "all", "page" and 
   # - games # Note that in plural looks better
   # - electronics
   # - libraries
-  - Applications
+  - applications
 ---
 TODO

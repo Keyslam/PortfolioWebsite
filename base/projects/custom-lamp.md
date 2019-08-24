@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Custom Lamp"
 description: "Self made lamp using WS2812B leds and Arduino"
-image: "placeholder.png" # Recommended size 640x360
+image: "placeholder.webp" # Recommended size 640x360
 
 # These fields are optional #
 # youtube:  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"
