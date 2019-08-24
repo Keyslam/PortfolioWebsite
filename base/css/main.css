@@ -180,7 +180,27 @@ nav a.selected {
 
 .cover {
   margin: 30px 0;
-  width: 640px;
+  width: 100%;
+  max-width: 640px;
+}
+
+.youtube div {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0px;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.itchio {
+  width: 100%;
+  max-width: 640px;
 }
 
 .cover, main, .markdown h1, .itchio {
