@@ -22,10 +22,10 @@ header h1 {
 header .about {
   display: inline-flex;
   font-style: italic;
-  background-color: #f6f485;
+  background-color: #f9f1a6;;
   padding: 3px 15px;
   border-radius: 3px;
-  border: 1px solid #f1eba1;
+  border: 1px solid #e1db96;
   margin: 0;
 }
 
@@ -166,12 +166,14 @@ nav a.selected {
   cursor: pointer;
 }
 .radio-button + label:hover {
-  border-color: #3a4652;
-  color: #3a4652;
+  border-color: #462d80;
+  color: #462d80;
+  font-weight: 700;
 }
 .radio-button:checked + label {
-  border-color: #3a4652;
-  background-color: #3a4652;
+  font-weight: 700;
+  border-color: #462d80;
+  background-color: #462d80;
   color: white;
 }
 
@@ -348,7 +350,7 @@ footer {
 
 
 .links a:hover, .social li a:hover {
-  background-color: black;
+  background-color: #462d80;
   color: white;
   border-color: transparent;
   transform: scale(1.02);

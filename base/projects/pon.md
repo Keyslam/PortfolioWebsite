@@ -12,9 +12,9 @@ github: "https://github.com/RubberAlchemy/pon"
 # ludumdare:
 score: 5 # Score is used to sort the projects, higher means it will be displayed first
 tags: # These should be lowercase but can be whatever (except "all", "page" and "project")
-  - game
+  - games # Note that in plural looks better
   # - electronics
-  # - library
+  # - libraries
 ---
 ## Description
 
