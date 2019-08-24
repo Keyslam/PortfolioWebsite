@@ -11,8 +11,8 @@
   "email": "justinvanderleij@gmail.com",
   "phone": "+316-81712798",
 
-  "city": "The Netherlands",
-  "country": "Leeuwarden",
+  "city": "Leeuwarden",
+  "country": "The Netherlands",
 
   "//NOTE": "Delete the six dashes in the entry's name below and paste your Google Analytics ID as the value: https://support.google.com/analytics/answer/1008080#GAID",
   "ganalytics------": "29128192"
