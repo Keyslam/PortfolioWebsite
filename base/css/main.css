@@ -303,6 +303,23 @@ nav a.selected {
   margin: 0 auto;
   max-width: 640px;
 }
+.markdown blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.2em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.markdown blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.6em;
+}
+.markdown blockquote p {
+  display: inline-block;
+}
 
 .links {
   margin: 0 auto 30px;
