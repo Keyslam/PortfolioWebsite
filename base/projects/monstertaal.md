@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Monstertaal"
 description: "An educational game to make children aware of the languages around them."
-image: "monstertaal.png" # Recommended size 640x360
+image: "monstertaal.webp" # Recommended size 640x360
 
 # These fields are optional #
 # youtube:  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

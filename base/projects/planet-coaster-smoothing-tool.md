@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Planet Coaster Smoothing Tool"
 description: "Tool to semi-automatically smooth rollercoasters in Planet Coaster"
-image: "placeholder.png" # Recommended size 640x360
+image: "placeholder.webp" # Recommended size 640x360
 
 # These fields are optional #
 # youtube:  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Magical Resonance"
 description: "Magical fighting game made in 72 hours for Ludum Dare 44"
-image: "magicalResonance.png" # Recommended size 640x360
+image: "magicalResonance.webp" # Recommended size 640x360
 
 # These fields are optional #
 youtube: "Hv97PNhV_p0"  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

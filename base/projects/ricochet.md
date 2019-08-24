@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Ricochet"
 description: "2D puzzle sniping game made in 48 hours for GMTK Game Jam"
-image: "ricochet.jpg" # Recommended size 640x360
+image: "ricochet.webp" # Recommended size 640x360
 
 # These fields are optional #
 youtube: "4c-AO6Se1bc"  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

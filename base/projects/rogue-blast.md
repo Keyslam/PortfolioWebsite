@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Rogue Blast"
 description: "Tile based rogue-lite made for Ludum Dare 34"
-image: "rogueBlast.png" # Recommended size 640x360
+image: "rogueBlast.webp" # Recommended size 640x360
 
 # These fields are optional #
 # youtube:  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

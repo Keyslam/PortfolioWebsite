@@ -2,7 +2,7 @@
 # These fields are required #
 title: "PON'"
 description: "A juicy PONG variation where you only use SPACE to control 4 paddles"
-image: "pon.png" # Recommended size 640x360
+image: "pon.webp" # Recommended size 640x360
 
 # These fields are optional #
 youtube: "gFWbM9g1UeQ"  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

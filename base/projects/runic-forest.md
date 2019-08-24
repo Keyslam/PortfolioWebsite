@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Runic Forest"
 description: "Magical fighting game made in 72 hours for Ludum Dare 39"
-image: "runicForest.png" # Recommended size 640x360
+image: "runicForest.webp" # Recommended size 640x360
 
 # These fields are optional #
 # youtube: #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

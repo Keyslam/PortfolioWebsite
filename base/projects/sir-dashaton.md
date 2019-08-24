@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Sir Dashaton"
 description: "Dashing game with a 3D stacking technique made for Ludum Dare 42"
-image: "sirDashaton.png" # Recommended size 640x360
+image: "sirDashaton.webp" # Recommended size 640x360
 
 # These fields are optional #
 youtube: "5lkh7sK3bUM"  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"

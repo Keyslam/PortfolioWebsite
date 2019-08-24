@@ -2,7 +2,7 @@
 # These fields are required #
 title: "Pocalypse"
 description: "Shooting game using 3D stacking technique"
-image: "pocalypse.png" # Recommended size 640x360
+image: "pocalypse.webp" # Recommended size 640x360
 
 # These fields are optional #
 # youtube:  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"
