@@ -5,5 +5,15 @@
   "github": "https://github.com/Tjakka5",
   "itchio": "https://tjakka5.itch.io/",
   "ludumdare": "https://ldjam.com/users/tjakka5",
-  "youtube": "https://www.youtube.com/user/justinvanderleij"
+  "youtube": "https://www.youtube.com/user/justinvanderleij",
+
+  "email": "example@mail.com",
+  "phone": "+00-000-00-0000",
+
+  "street": "Street name, 000",
+  "zip": "00000",
+  "city": "City name",
+  "state": "State name",
+  "country": "Country name"
+
 }

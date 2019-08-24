@@ -9,13 +9,23 @@
   <link rel='stylesheet' href='{{ "/css/main.css"         | url }}'/>
 	<meta charset='utf-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+	<link rel="apple-touch-icon" sizes="180x180" href='{{ "/img/logo/apple-touch-icon.png" | url }}'>
+	<link rel="icon" type="image/png" sizes="32x32" href='{{ "/img/logo/favicon-32x32.png" | url }}'>
+	<link rel="icon" type="image/png" sizes="16x16" href='{{ "/img/logo/favicon-16x16.png" | url }}'>
+	<link rel="manifest" href='{{ "/static/site.webmanifest" | url }}'>
+	<link rel="mask-icon" href='{{ "/img/logo/safari-pinned-tab.svg" | url }}' color="#603cba">
+	<link rel="shortcut icon" href='{{ "/img/logo/favicon.ico" | url }}'>
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-TileImage" content='{{ "/img/logo/mstile-144x144.png" | url }}'>
+	<meta name="msapplication-config" content='{{ "/static/browserconfig.xml" | url }}'>
+	<meta name="theme-color" content="#ffffff">
   {% block head %}
   {% endblock %}
 </head>
 
 <body>
 	<header>
-		<img src='{{ "/img/logo.png" | url }}'/>
+		<img src='{{ "/img/logo/android-chrome-256x256.png" | url }}'/>
 		<h1>{{ author.name }}</h1>
 		<p class='about'>{{ author.about }}</p>
 	</header>
@@ -27,8 +37,13 @@
 			<a {% if title == "Contact"   %}class='selected' href='#'{% else %}href='{{ "/contact" | url }}'{% endif %}>Contact  </a>
 		</nav>
 		<div class="separator">
-      {% block icon %}
-      {% endblock %}
+			<span class="icon">
+				{% block icon %}
+				  <svg xmlns="http://www.w3.org/2000/svg" version='1.1' aria-hidden='true' width='50' height='50' viewBox='0 0 16 16'>
+						<path fill-rule="evenodd" d="M12 1C9.79 1 8 2.31 8 3.92c0 1.94.5 3.03 0 6.08 0-4.5-2.77-6.34-4-6.34.05-.5-.48-.66-.48-.66s-.22.11-.3.34c-.27-.31-.56-.27-.56-.27l-.13.58S.7 4.29.68 6.87c.2.33 1.53.6 2.47.43.89.05.67.79.47.99C2.78 9.13 2 8 1 8S0 9 1 9s1 1 3 1c-3.09 1.2 0 4 0 4H3c-1 0-1 1-1 1h6c3 0 5-1 5-3.47 0-.85-.43-1.79-1-2.53-1.11-1.46.23-2.68 1-2 .77.68 3 1 3-2 0-2.21-1.79-4-4-4zM2.5 6c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5z"></path>
+					</svg>
+				{% endblock %}
+			</span>
 			<h2>{{ separator or title }}</h2>
 		</div>
 	</section>
