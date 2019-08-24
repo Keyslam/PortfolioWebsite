@@ -1,5 +1,11 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 * {
   font-family: Raleway, sans-serif;
@@ -31,6 +37,7 @@ header .about {
 
 main {
   max-width: 1000px;
+  flex-grow: 1;
 }
 
 nav {
@@ -45,7 +52,6 @@ nav a {
   text-decoration: none;
   font-weight: 700;
   font-size: 1.5rem;
-  text-transform: lowercase;
   color: rgba(0,0,0,0.3)
 }
 nav a.selected {
