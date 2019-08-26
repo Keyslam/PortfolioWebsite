@@ -16,7 +16,7 @@ tags:
   - jam
 ---
 Sir. Dashaton was made in 72 hours for Ludum Dare 42.
-I worked together with my good friend [https://pablomayobre.github.io/](https://pablomayobre.github.io/) for this one.
+I worked together with my good friend [Pablo](https://pablomayobre.github.io/) for this one.
 He did all the art work and some of the programming. I did the majority of programming and music.
 I also asked a friend of mine to do a voice over.
 
