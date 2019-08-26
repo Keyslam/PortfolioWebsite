@@ -13,6 +13,7 @@ ludumdare: "https://ldjam.com/events/ludum-dare/39/runic-forest"
 score: 4 # Score is used to sort the projects, higher means it will be displayed first
 tags: # These should be lowercase but can be whatever (except "all", "page" and "project")
   - games # Note that in plural looks better
+  - jam
   # - electronics
   # - libraries
 ---

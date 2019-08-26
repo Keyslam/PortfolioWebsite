@@ -1,19 +1,27 @@
 ---
 # These fields are required #
 title: "Monstertaal"
-description: "An educational game to make children aware of the languages around them."
-image: "monstertaal.webp" # Recommended size 640x360
+description: "Educational game to make children aware of the languages around them"
+image: "monstertaal.webp"
 
 # These fields are optional #
-# youtube:  #This is the ID that comes after "https://www.youtube.com/watch?v=" and before any "&"
-# itchio: # You can find this number at the end of the URL when you click Edit Game
+# youtube:
+# itchio:
 # github:
 googleplay: "https://play.google.com/store/apps/details?id=com.grendelgames.monstertaal&hl=en"
 # ludumdare:
-score: 8 # Score is used to sort the projects, higher means it will be displayed first
-tags: # These should be lowercase but can be whatever (except "all", "page" and "project")
-  - games # Note that in plural looks better
-  # - electronics
-  # - libraries
+score: 8
+tags:
+  - games
 ---
-TODO
+Monstertaal is a game I made during my internship at [Grendel Games](https://grendelgames.com/).
+It's an educational game for mobile that makes use of augmented reality.
+
+Children explore the streets looking for street signs. When they point their camera at one a monster will pop out.
+The monster will say a sentence in a foreign language that the children need to identify the language of and decipher.
+After that the monster gets added to a monster collection screen.
+
+It was made in Unity using Vuforia for the AR aspect.
+The majority of the code was written by me.
+UI was made by Anne Draaisma.
+Monsters were made by Quirina Wiersma.
