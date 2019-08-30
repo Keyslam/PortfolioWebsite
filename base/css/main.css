@@ -89,18 +89,19 @@ nav a.selected {
 .sticky .separator:after {
   left: 100%;
 }
-.sticky .separator .icon {
+.icon {
+  display: block;
   text-align: center;
   border: 4px solid rgba(0,0,0,0.2);
   border-radius: 50%;
   padding: 6px;
 }
-.sticky .separator .icon svg {
+.icon svg {
   display: block;
   width: 1.3rem;
   height: 1.3rem;
 } 
-.sticky .separator .icon path {
+.icon path {
   fill: rgba(0,0,0,0.35);
 }
 .sticky .separator h2 {
@@ -351,6 +352,7 @@ nav a.selected {
 footer {
   border-top: 4px solid rgba(0,0,0,0.2);
   max-width: 1000px;
+  width: 100%;
   margin: 50px auto 0;
   text-align: center;
   padding: 5px 0px 10px;
@@ -417,6 +419,20 @@ footer {
 footer p, footer p a {
   margin: 2px;
   color: rgba(0,0,0,0.3)
+}
+
+.field {
+  margin: 4px 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.field .icon {
+  border-width: 1px;
+}
+.field .description {
+  font-weight: 300;
+  margin: 0 8px;
 }
 
 #loadOverlay{
