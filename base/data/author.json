@@ -14,6 +14,5 @@
   "city": "Leeuwarden",
   "country": "The Netherlands",
 
-  "//NOTE": "Delete the six dashes in the entry's name below and paste your Google Analytics ID as the value: https://support.google.com/analytics/answer/1008080#GAID",
-  "ganalytics------": "29128192"
+  "ganalytics": "UA-154846990-1"
 }

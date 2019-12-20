@@ -52,6 +52,7 @@
 			<a {% if title == "About me"  %}class='selected' href='#'{% else %}href='{{ "/about/"   | url }}'{% endif %}>About me </a>
 			<a {% if title == "Portfolio" %}class='selected' href='#'{% else %}href='{{ "/"         | url }}'{% endif %}>Portfolio</a>
 			<a {% if title == "Contact"   %}class='selected' href='#'{% else %}href='{{ "/contact/" | url }}'{% endif %}>Contact  </a>
+			<a {% if title == "Blog"      %}class='selected' href='#'{% else %}href='{{ "/blog/"    | url }}'{% endif %}>Blog     </a>
 		</nav>
 		<div class="separator">
 			<span class="icon">

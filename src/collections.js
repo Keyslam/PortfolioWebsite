@@ -27,4 +27,10 @@ module.exports = (eleventy) => {
       return (b.data.score || 1) - (a.data.score || 1)
     });
   });
+
+  eleventy.addCollection("stories", (collection) => {
+    return collection.getFilteredByTag("story").sort((a, b) => {
+      return (b.data.date) - (a.data.date)
+    });
+  });
 }
