@@ -1,6 +1,6 @@
 ---
 title: "The Website"
-image: "img.webp"
+image: "this-story.png"
 
 date: Created
 ---
@@ -12,7 +12,7 @@ It's pretty neat, huh? It has got a lot of cool features that my old website did
 My good friend [Pablo](https://pablomayobre.github.io/) made it for me. I added the blog myself and I'll always be tweaking it.
 The cool thing about it is that it's a 'static website'. 
 That means I can write all my content in markdown, run a command, and it will turn it into a proper website.
-As a little example, here's this blogpost itself so far!
+As a little example, here's this blogpost itself!
 
 ![Woha. Cool!](/img/stories/the-website/this-story.png)
 
