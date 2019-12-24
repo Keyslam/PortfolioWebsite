@@ -1,6 +1,6 @@
 ---
 title: "The Website"
-image: "this-story.png"
+image: "stories/the-website/this-story.png"
 
 date: Created
 ---
