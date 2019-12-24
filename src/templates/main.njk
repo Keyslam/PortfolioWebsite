@@ -18,13 +18,13 @@
 	{% endif %}
 
 	<!-- Open Graph Protocol metadata ( https://ogp.me/ ) -->
-	<meta property="og:title" content="Tjakka5 Portfolio"/>
+	<meta property="og:title" content='{{ title }}'/>
 	<meta property="og:type" content="profile"/>
-	<meta property="og:portfolio:first_name" content="Justin"/>
-	<meta property="og:portfolio:last_name" content="van der Leij"/>
-	<meta property="og:portfolio:username" content="Tjakka5"/>
-	<meta property="og:portfolio:gender" content="Male"/>
-	<meta property="og:url" content="http://tjakka5.sorunome.de/" />
+	<meta property="og:profile:first_name" content='{{ author.firstname }}'/>
+	<meta property="og:profile:last_name" content='{{ author.lastname }}'/>
+	<meta property="og:profile:username" content='{{ author.username }}'/>
+	<meta property="og:profile:gender" content='{{ author.gender }}'/>
+	<meta property="og:url" content='{{ url }}'/>
 	<meta property="og:image" content="http://tjakka5.sorunome.de/img/logo/android-chrome-256x256.png"/>
 
 	<!-- Normalize CSS -->
