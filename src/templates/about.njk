@@ -1,5 +1,14 @@
 {% extends "main.njk" %}
 
+{% block head %}
+  <meta property="og:type" content="profile"/>
+	<meta property="og:profile:first_name" content='{{ author.firstname }}'/>
+	<meta property="og:profile:last_name" content='{{ author.lastname }}'/>
+	<meta property="og:profile:username" content='{{ author.username }}'/>
+	<meta property="og:profile:gender" content='{{ author.gender }}'/>
+	<meta property="og:image" content="http://tjakka5.sorunome.de/img/logo/android-chrome-256x256.png"/>
+{% endblock %}
+
 {% block icon %}
   <svg xmlns="http://www.w3.org/2000/svg" version='1.1' aria-hidden='true' width="50" height="50" viewBox="0 0 14 16">
     <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
