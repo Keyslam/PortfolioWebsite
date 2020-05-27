@@ -26,9 +26,10 @@
     <iframe class="itchio" src="https://itch.io/embed/{{ itchio }}?linkback=true&amp;border_width=2&amp;fg_color=000000&amp;link_color=462d80" width="640" height="173" frameborder="0"></iframe>
   {% endif %}
   <section class="links">
-    {% if github     %}<a href="{{ github     }}" class="github"    >GitHub     </a>{% endif %}
-    {% if ludumdare  %}<a href="{{ ludumdare  }}" class="ludumdare" >LudumDare  </a>{% endif %}
-    {% if googleplay %}<a href="{{ googleplay }}" class="googleplay">Google Play</a>{% endif %}
+    {% if github        %}<a href="{{ github        }}" class="github"       >GitHub         </a>{% endif %}
+    {% if ludumdare     %}<a href="{{ ludumdare     }}" class="ludumdare"    >LudumDare      </a>{% endif %}
+    {% if googleplay    %}<a href="{{ googleplay    }}" class="googleplay"   >Google Play    </a>{% endif %}
+    {% if globalgamejam %}<a href="{{ globalgamejam }}" class="globalgamejam">Global Game Jam</a>{% endif %}
   </section>
   <section class="markdown">
     {{ content | safe }}
