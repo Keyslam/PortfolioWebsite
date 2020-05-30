@@ -1,7 +1,7 @@
 const fs = require("fs");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const markdownSetup = require('./src/markdown.js')
-const collectionsSetup = require('./src/collections.js')
+const markdownSetup = require("./src/markdown.js");
+const collectionsSetup = require("./src/collections.js");
 
 module.exports = (eleventy) => {
   eleventy.addPlugin(pluginSyntaxHighlight);
@@ -17,24 +17,19 @@ module.exports = (eleventy) => {
   eleventy.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('build/404.html');
+        const content_404 = fs.readFileSync("build/404.html");
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
           res.write(content_404);
           res.end();
         });
-      }
-    }
+      },
+    },
   });
 
   return {
-    templateFormats: [
-      "md",
-      "njk",
-      "html",
-      "liquid"
-    ],
+    templateFormats: ["md", "njk", "html", "liquid"],
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
@@ -50,7 +45,7 @@ module.exports = (eleventy) => {
       input: "base",
       includes: "../src/templates",
       data: "data",
-      output: "build"
-    }
+      output: "build",
+    },
   };
 };

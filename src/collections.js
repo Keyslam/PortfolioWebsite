@@ -3,19 +3,19 @@ module.exports = (eleventy) => {
     const categories = new Map();
 
     const addAll = (tag) => {
-      categories.set(tag, (categories.get(tag) || 0) + 1) // Increment the score
+      categories.set(tag, (categories.get(tag) || 0) + 1); // Increment the score
     };
 
     collection.getFilteredByTag("project").forEach((item) => {
-      if( "tags" in item.data ) {
+      if ("tags" in item.data) {
         item.data.tags.forEach(addAll);
       }
     });
-  
-    categories.delete('all');
-    categories.delete('project');
-    categories.delete('page');
-  
+
+    categories.delete("all");
+    categories.delete("project");
+    categories.delete("page");
+
     // returning an array in addCollection works in Eleventy 0.5.3
     return [...categories.keys()].sort((a, b) => {
       return categories.get(b) - categories.get(a);
@@ -24,13 +24,13 @@ module.exports = (eleventy) => {
 
   eleventy.addCollection("projects", (collection) => {
     return collection.getFilteredByTag("project").sort((a, b) => {
-      return (b.data.score || 1) - (a.data.score || 1)
+      return (b.data.score || 1) - (a.data.score || 1);
     });
   });
 
   eleventy.addCollection("stories", (collection) => {
     return collection.getFilteredByTag("story").sort((a, b) => {
-      return (b.data.date) - (a.data.date)
+      return b.data.date - a.data.date;
     });
   });
-}
+};
