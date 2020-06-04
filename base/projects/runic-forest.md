@@ -12,8 +12,7 @@ image: "runicForest.webp"
 ludumdare: "https://ldjam.com/events/ludum-dare/39/runic-forest"
 score: 4
 tags:
-  - games
-  - jam
+  - game
 ---
 Magical Resonance was made in 72 hours for Ludum Dare 39.
 I worked together with my friend [&I](https://www.youtube.com/channel/UC39w2MAztMDW2gh5NDEA7Ew) on this game.

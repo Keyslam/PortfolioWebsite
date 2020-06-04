@@ -12,7 +12,7 @@ googleplay: "https://play.google.com/store/apps/details?id=com.grendelgames.mons
 # ludumdare:
 score: 8
 tags:
-  - games
+  - game
 ---
 Monstertaal is a game I made during my internship at [Grendel Games](https://grendelgames.com/).
 It's an educational game for mobile that makes use of augmented reality.

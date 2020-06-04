@@ -12,8 +12,7 @@ youtube: "Hv97PNhV_p0"
 ludumdare: "https://ldjam.com/events/ludum-dare/44/magical-resonance/"
 score: 9
 tags:
-  - games
-  - jam
+  - game
 ---
 Magical Resonance was my attempt at remaking [Runic Forest](http://tjakka5.sorunome.de/projects/runic-forest/).
 It was also made in 72 hours for Ludum Dare (44), but this time with Unity.

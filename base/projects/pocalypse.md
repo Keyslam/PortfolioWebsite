@@ -12,10 +12,9 @@ image: "pocalypse.webp"
 ludumdare: "http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=64330"
 score: 3
 tags:
-  - games
-  - jam
+  - game
 ---
-Pocalypsae is a game made in a few hours for Ludum Dare 37.
+Pocalypse is a game made in a few hours for Ludum Dare 37.
 I worked on this game alone in my spare time while I was at my parent's place, and a little bit at school to finish it.
 
 It's my first attempt at using a sprite stacking technique to give the illusion of 3D.

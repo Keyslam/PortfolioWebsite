@@ -1,13 +1,13 @@
 ---
 # These fields are required #
-title: "PON'"
-description: "Pong variation made for LÖVE jam 2019"
-image: "pon.webp"
+title: "Lovox'"
+description: "Stylized voxel renderer for LÖVE"
+image: "projects/lovox.png"
 
 # These fields are optional #
-youtube: "gFWbM9g1UeQ"
-itchio: "226548"
-github: "https://github.com/RubberAlchemy/pon"
+# youtube:
+# itchio:
+github: "https://github.com/KeySlam/Lovox-Redux"
 # googleplay:
 # ludumdare:
 score: 5

@@ -12,8 +12,7 @@ github: "https://github.com/RubberAlchemy/Sir-Dashaton"
 ludumdare: "https://ldjam.com/events/ludum-dare/42/sir-dashaton/"
 score: 7
 tags:
-  - games
-  - jam
+  - game
 ---
 Sir. Dashaton was made in 72 hours for Ludum Dare 42.
 I worked together with my good friend [Pablo](https://pablomayobre.github.io/) for this one.

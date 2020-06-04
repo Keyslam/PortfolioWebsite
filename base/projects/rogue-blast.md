@@ -11,8 +11,7 @@ image: "rogueBlast.webp"
 ludumdare: "http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=64330"
 score: 2
 tags:
-  - games
-  - jam
+  - game
 ---
 Rogue Blast was my first released game.
 It was made in 48 hours for Ludum Dare 37.

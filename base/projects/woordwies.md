@@ -12,6 +12,5 @@ googleplay: https://play.google.com/store/apps/details?id=com.grendelgames.woord
 # ludumdare:
 score: 7
 tags:
-  - games
+  - game
 ---
-**TODO**

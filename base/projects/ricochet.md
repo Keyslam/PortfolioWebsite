@@ -12,8 +12,7 @@ itchio: "463694"
 # ludumdare:
 score: 10
 tags:
-  - games
-  - jam
+  - game
 ---
 Ricochet was made with Unity in 48 hours for GMTK Jam 2019.
 I worked together with my good friend and composer [&I](https://www.youtube.com/channel/UC39w2MAztMDW2gh5NDEA7Ew).

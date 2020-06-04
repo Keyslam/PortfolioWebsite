@@ -3,7 +3,7 @@ title: About me      # Don't change
 layout: about.njk    # Don't change
 tags: page           # Don't change
 permalink: /about/   # Don't change
-separator: My Interests  # Keep it short
+separator: My self  # Keep it short
 ---
 ## My name is Justin van der Leij.
 And together with my cat Pixel I'm living the student life in The Netherlands.
