@@ -35,7 +35,7 @@ module.exports = (eleventy) => {
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: "/",
+    pathPrefix: "/portfolio/",
 
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",

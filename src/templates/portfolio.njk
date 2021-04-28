@@ -49,7 +49,7 @@
 	<section class='grid'>
 		{% for project in collections.projects %}
 			<a class='{{ project.data.tags | join(" ") }}' href='{{ project.url | url }}'>
-				<img src='{{ "/img/" + project.data.image | url }}'/>
+				<img src='{{ "/portfolio/img/" + project.data.image | url }}'/>
 				<div class='content'>
 					<h3>{{ project.data.title }}</h3>
 					<p>{{ project.data.description }}

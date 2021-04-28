@@ -6,12 +6,17 @@ permalink: /about/   # Don't change
 separator: My self  # Keep it short
 ---
 ## My name is Justin van der Leij.
-And together with my cat Pixel I'm living the student life in The Netherlands.
+ I am a software engineering students from The Netherlands,
+striving to become a Game Developer.
 
-I have completed the study 'Software Engineering' at MBO level at the Friesland College in early 2018.
-Now I am thrilled to continue studying that field at HBO level at NHL Stenden.
+I enjoy the process of game development, from thinking of a concept to the full implementation.
+I like thinking of unique ideas and then figuring out how to express those with code.
 
-My hobbies include playing the piano, petting cats, and working on little projects.
-I am also _always_ up for a game jam.
+I spend tons of my free time developing my own projects, which could be a small game, an IoT lamp, or even an electronical marble run!
+Whatever it is, I always try to innovate with the project and make it truly unique.
 
-![My Face](/img/logo/android-chrome-256x256.png)
+When I am not working on something I like to play the piano and cuddle with my cats. 
+
+**View my CV (Which, btw, is completely generated with code)**
+[Dutch](/static/files/CV_Dutch.pdf)
+[English](/static/files/CV_English.pdf)
